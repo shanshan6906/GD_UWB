@@ -1,0 +1,7 @@
+*** Using Compiler 'V6.16', folder: 'C:\Keil_v5\ARM\ARMCLANG\Bin'
+Build target 'GD32E230K8U6_UWB'
+linking...
+--- Error: failed to execute 'C:\Keil_v5\ARM\ARMCLANG\Bin\ArmLink'
+".\Objects\GD32E230K8U6_UWB.axf" - 1 Error(s), 0 Warning(s).
+Target not created.
+Build Time Elapsed:  00:00:00

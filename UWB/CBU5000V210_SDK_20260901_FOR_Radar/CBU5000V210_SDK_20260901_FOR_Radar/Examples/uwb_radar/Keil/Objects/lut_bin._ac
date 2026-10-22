@@ -1,0 +1,5 @@
+--target=arm-arm-none-eabi -mcpu=cortex-m33 -mfpu=fpv5-sp-d16 -mfloat-abi=hard -masm=auto -c
+-mlittle-endian -gdwarf-4
+-IC:/Keil_v5/ARM/PACK/Keil/CBU5000V210_DFP/1.0.0/Device/ARM/ARMCM33/Include
+-Wa,armasm,--pd,"__UVISION_VERSION SETA 536" -Wa,armasm,--pd,"ARMCM33_DSP_FP SETA 1"
+-o ./objects/lut_bin.o "../../../Components/Lut/lut_bin.s"

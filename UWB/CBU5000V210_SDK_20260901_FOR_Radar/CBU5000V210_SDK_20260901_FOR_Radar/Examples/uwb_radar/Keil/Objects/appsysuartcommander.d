@@ -1,0 +1,32 @@
+./objects/appsysuartcommander.o: ..\App\AppSysUartCommander.c \
+  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdint.h \
+  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdlib.h \
+  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdio.h \
+  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\string.h \
+  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\ctype.h \
+  ..\App\AppSysUartCommander.h \
+  ..\..\..\Components\Configuration\APP_CompileOption.h \
+  ..\..\..\Components\Configuration\APP_common.h \
+  ..\..\..\Components\ArmCore\ARMCM33_DSP_FP.h \
+  ..\..\..\Components\ArmCore\CMSIS_6.2.0\Core\Include\core_cm33.h \
+  ..\..\..\Components\ArmCore\CMSIS_6.2.0\Core\Include\cmsis_version.h \
+  ..\..\..\Components\ArmCore\CMSIS_6.2.0\Core\Include\cmsis_compiler.h \
+  ..\..\..\Components\ArmCore\CMSIS_6.2.0\Core\Include\cmsis_armclang.h \
+  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\arm_acle.h \
+  ..\..\..\Components\ArmCore\CMSIS_6.2.0\Core\Include\.\m-profile\cmsis_armclang_m.h \
+  ..\..\..\Components\ArmCore\CMSIS_6.2.0\Core\Include\m-profile\armv8m_mpu.h \
+  C:\Keil_v5\ARM\PACK\Keil\CBU5000V210_DFP\1.0.0\Device\ARM\ARMCM33\Include\system_ARMCM33.h \
+  ..\..\..\Components\Configuration\APP_common.h \
+  ..\..\..\Components\Application\AppUwbTRXMemoryPool.h \
+  ..\..\..\Components\Midlayer\System\CB_system.h \
+  ..\..\..\Components\Configuration\CB_Common.h \
+  ..\..\..\Components\DriverCpu\Inc\CB_qspi.h \
+  ..\..\..\Components\DriverCpu\Inc\CB_PeripheralPhyAddrDataBase.h \
+  ..\..\..\Components\Midlayer\System\CB_system_types.h \
+  ..\..\..\Components\Algorithm\CB_Algorithm.h \
+  ..\..\..\Components\Midlayer\System\CB_system_types.h \
+  ..\..\..\Components\DriverUwb\uwb_drivers\CB_UwbDrivers.h \
+  ..\App\TaskHandler.h ..\..\..\Components\DriverCpu\Inc\CB_Uart.h \
+  ..\..\..\Components\Midlayer\UwbFramework\CB_uwbframework.h \
+  ..\App\AppUwbRadar.h ..\App\AppRadarPersist.h \
+  ..\..\..\Components\Application\app_uart.h

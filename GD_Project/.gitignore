@@ -1,0 +1,6 @@
+Project/Keil/Objects/*
+Project/Keil/Listings/*
+Project/Keil/*.uvguix.*
+
+!Project/Keil/Objects/.gitkeep
+!Project/Keil/Listings/.gitkeep
