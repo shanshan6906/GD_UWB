@@ -24,14 +24,14 @@
 
 /* Common parameters used by both sensing modes. */
 #define UWB_MODE_PRF                              0U   /* 0=BPRF, 1=HPRF, 2=LG4A */
-#define UWB_POWER_CODE                            40U  /* UWB transmit power code */
+#define UWB_POWER_CODE                            7U   /* UWB transmit power code */
 #define UWB_SCALE_BIT                             6U   /* CIR amplitude scale setting */
-#define UWB_GAIN_INDEX                            4U   /* Receiver gain index */
+#define UWB_GAIN_INDEX                            5U   /* Receiver gain index */
 #define UWB_CIR_TAP_START                         0U   /* First CIR tap, inclusive */
-#define UWB_CIR_TAP_END                           50U  /* Last CIR tap, inclusive; maximum 240 */
+#define UWB_CIR_TAP_END                           100U /* Last CIR tap, inclusive; maximum 240 */
 #define UWB_SENSING_BURST_NUM                     1U   /* Bursts averaged into one CIR */
 #define UWB_NUM_RX_MODE                           2U   /* 1=1T1R, 2=1T2R */
-#define UWB_PREAMBLE_INDEX                        9U   /* BPRF uses 9..24 */
+#define UWB_PREAMBLE_INDEX                        10U  /* BPRF uses 9..24 */
 
 /* sensing_mode = 0: UWB continuously pushes one CIR at this interval. */
 #define UWB_CONTINUOUS_SENSING_INTERVAL_MS        100U
@@ -42,8 +42,8 @@
  * at UWB_FRAME_INTERVAL_MS. Deep sleep is available only in frame mode.
  */
 #define UWB_FRAME_ROW_INTERVAL_MS                 10U
-#define UWB_FRAME_INTERVAL_MS                     500U
-#define UWB_FRAME_CIR_COUNT                       8U
+#define UWB_FRAME_INTERVAL_MS                     100U
+#define UWB_FRAME_CIR_COUNT                       32U
 #define UWB_FRAME_DEEP_SLEEP_ENABLE               0U
 
 #if ((UWB_SENSING_MODE_SELECT != UWB_SENSING_MODE_CONTINUOUS) && \

@@ -12,6 +12,8 @@ GD32E230K8U6 UWB固件下载文件说明
 - PA9 / USART0_TX：M_LOG原样输出
 
 两路串口均为115200 baud、8N1、无流控。
+GD使用内部IRC8M经PLL产生72MHz系统时钟，不依赖外部高速晶振。
+板级、M_LOG和UWB串口初始化完成后，PA9输出一次“GD32 INIT OK”。
 USART1_RX使用DMA通道4循环接收，USART0_TX使用DMA通道1发送；
 两级DMA之间经过GD32的RAM缓冲区，并非外设到外设的直接DMA连接。
 

@@ -7,6 +7,8 @@
 #include "uwb_control.h"
 #include "uwb_uart.h"
 
+static const uint8_t s_gd_init_log[] = "GD32 INIT OK\r\n";
+
 static void forward_uwb_data_to_log(void)
 {
     uint8_t buffer[64];
@@ -25,6 +27,7 @@ int main(void)
     board_init();
     m_log_init(M_LOG_UART_BAUDRATE);
     uwb_uart_init(UWB_UART_BAUDRATE);
+    m_log_write(s_gd_init_log, (uint16_t)(sizeof(s_gd_init_log) - 1U));
 
     startup_time_ms = board_millis();
     while ((uint32_t)(board_millis() - startup_time_ms) < UWB_STARTUP_DELAY_MS) {
