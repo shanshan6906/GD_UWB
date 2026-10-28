@@ -188,3 +188,341 @@ DwIDAQAB
 ------------------
 [2026/10/23 09:16:24] [Log] [IPC] .handle("license.machineCode") result: "eyJ2Ijoid2lufDEuMTQuOSIsImkiOiJ5dHRCdkZET0oyIiwibCI6IlNIQU4gfCBOaXUgfCBXaW5kb3dzIn0="
 ------------------
+[2026/10/24 16:12:31] [Log] -------------------------------------------
+------------------
+[2026/10/24 16:12:31] [Log] crypto.publicDecrypt called
+------------------
+[2026/10/24 16:12:31] [Log] Key: -----BEGIN PUBLIC KEY-----
+MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA7nVoGCHqIMJyqgALEUrc
+5JJhap0+HtJqzPE04pz4y+nrOmY7/12f3HvZyyoRsxKdXTZbO0wEHFIh0cRqsuaJ
+PyaOOPbA0BsalofIAY3mRhQQ3vSf+rn3g+w0S+udWmKV9DnmJlpWqizFajU4T/E4
+5ZgMNcXt3E1ips32rdbTR0Nnen9PVITvrbJ3l6CI2BFBImZQZ2P8N+LsqfJsqyVV
+wDkt3mHAVxV7FZbfYWG+8FDSuKQHaCmvgAtChx9hwl3J6RekkqDVa6GIV13D23LS
+qdk0Jb521wFJi/V6QAK6SLBiby5gYN6zQQ5RQpjXtR53MwzTdiAzGEuKdOtrY2Me
+DwIDAQAB
+-----END PUBLIC KEY-----
+
+
+------------------
+[2026/10/24 16:12:31] [Log] Buffer (Hex): 75736572406578616d706c652e636f6d
+------------------
+[2026/10/24 16:12:31] [Log] BrowserWindow created
+------------------
+[2026/10/24 16:12:33] [Log] [IPC] .invoke("document.loadData") args: []
+------------------
+[2026/10/24 16:12:33] [Log] [IPC] .handle("document.loadData") result: "{\"snap\":null,\"filePath\":\"D:\\\\BaiduSyncdisk\\\\Work_Dir\\\\20_Other\\\\20_Other\\\\30_UWB\\\\GD_Project\\\\程序逻辑设计说明.md\",\"backups\":null,\"shouldReadFromDisk\":false,\"windowCounts\":1}"
+------------------
+[2026/10/24 16:12:33] [Log] [IPC] .invoke("setting.put") args: ["sidebar_tab","outline"]
+------------------
+[2026/10/24 16:12:33] [Log] [IPC] .handle("setting.put") result: 
+------------------
+[2026/10/24 16:12:33] [Log] [IPC] .invoke("window.updateMenuForIsAlwaysOnTop") args: []
+------------------
+[2026/10/24 16:12:33] [Log] [IPC] .handle("window.updateMenuForIsAlwaysOnTop") result: 
+------------------
+[2026/10/24 16:12:33] [Log] [IPC] .invoke("menu.updateCustomZoom") args: []
+------------------
+[2026/10/24 16:12:33] [Log] [IPC] .handle("menu.updateCustomZoom") result: 
+------------------
+[2026/10/24 16:12:33] [Log] [IPC] .invoke("window.updateMenuForIsAlwaysOnTop") args: []
+------------------
+[2026/10/24 16:12:33] [Log] [IPC] .handle("window.updateMenuForIsAlwaysOnTop") result: 
+------------------
+[2026/10/24 16:12:33] [Log] [IPC] .invoke("menu.updateCustomZoom") args: []
+------------------
+[2026/10/24 16:12:33] [Log] [IPC] .handle("menu.updateCustomZoom") result: 
+------------------
+[2026/10/24 16:12:33] [Log] [IPC] .invoke("setting.getRecentFiles") args: []
+------------------
+[2026/10/24 16:12:33] [Log] [IPC] .handle("setting.getRecentFiles") result: {"files":[{"name":"程序逻辑设计说明.md","path":"D:\\BaiduSyncdisk\\Work_Dir\\20_Other\\20_Other\\30_UWB\\GD_Project\\程序逻辑设计说明.md","date":1792829551161},{"name":"中国市售协作机械臂全景调研报.md","path":"C:\\Users\\Niu\\Desktop\\中国市售协作机械臂全景调研报.md","date":1792718973463},{"name":"README.md","path":"D:\\BaiduSyncdisk\\Work_Dir\\21_AI_Work_Space\\01_Redash\\dishwasher-redash-readonly\\README.md","date":1792664223108},{"name":"SKILL.md","path":"D:\\BaiduSyncdisk\\Work_Dir\\21_AI_Work_Space\\01_Redash\\dishwasher-redash-readonly\\SKILL.md","date":1792664108809},{"name":"程序逻辑设计说明.md","path":"D:\\BaiduSyncdisk\\工作文件夹\\20 其它\\20 其它\\30_UWB\\gd软件\\程序逻辑设计说明.md","date":1792653989778},{"name":"程序逻辑控制文档.md","path":"C:\\Users\\Niu\\Desktop\\codex\\程序逻辑控制文档.md","date":1791935594577},{"name":"RX_V5.0.0三路输出IO与LED程序修改清单.md","path":"C:\\Users\\Niu\\Desktop\\codex\\RX_V5.0.0三路输出IO与LED程序修改清单.md","date":1791643234872},{"name":"RX输出IO与LED状态现状及待确认修改方案.md","path":"C:\\Users\\Niu\\Desktop\\codex\\RX输出IO与LED状态现状及待确认修改方案.md","date":1791642868228},{"name":"07_第一阶段模拟数据与第二阶段真实模块接入指南.md","path":"D:\\BaiduSyncdisk\\工作文件夹\\20 其它\\20 其它\\19 ch584\\09_开发文档\\07_第一阶段模拟数据与第二阶段真实模块接入指南.md","date":1790826098035},{"name":"FIRST_STAGE_RETEST_GUIDE_20260926.md","path":"D:\\BaiduSyncdisk\\工作文件夹\\20 其它\\20 其它\\19 ch584\\03_firmware\\xiaodu_mesh_minimal\\docs\\FIRST_STAGE_RETEST_GUIDE_20260926.md","date":1790657075497},{"name":"程序逻辑设计.md","path":"D:\\BaiduSyncdisk\\工作文件夹\\20 其它\\20 其它\\20_CH582\\05_CH58x_USB_BLE_Pen_Bridge\\程序逻辑设计.md","date":1790648515428},{"name":"README.md","path":"D:\\BaiduSyncdisk\\工作文件夹\\20 其它\\20 其它\\20_CH582\\05_CH58x_USB_BLE_Pen_Bridge\\README.md","date":1790582471624},{"name":"手写板USB转BLE项目汇总.md","path":"D:\\BaiduSyncdisk\\工作文件夹\\20 其它\\20 其它\\20_CH582\\手写板USB转BLE项目汇总.md","date":1790581204691},{"name":"SIMULATED_DATA_AND_REAL_BACKEND_GUIDE.md","path":"D:\\BaiduSyncdisk\\工作文件夹\\20 其它\\20 其它\\19 ch584\\03_firmware\\xiaodu_mesh_minimal\\docs\\SIMULATED_DATA_AND_REAL_BACKEND_GUIDE.md","date":1790413297851},{"name":"XIAODU_PROTOCOL_CONFIRMED_20260924.md","path":"D:\\BaiduSyncdisk\\工作文件夹\\20 其它\\20 其它\\19 ch584\\03_firmware\\xiaodu_mesh_minimal\\docs\\XIAODU_PROTOCOL_CONFIRMED_20260924.md","date":1790413270226},{"name":"BOARD_KEYS_AND_IO.md","path":"D:\\BaiduSyncdisk\\工作文件夹\\20 其它\\20 其它\\19 ch584\\03_firmware\\xiaodu_mesh_minimal\\docs\\BOARD_KEYS_AND_IO.md","date":1790413232864},{"name":"BUILD_AND_FLASH.md","path":"D:\\BaiduSyncdisk\\工作文件夹\\20 其它\\20 其它\\19 ch584\\03_firmware\\xiaodu_mesh_minimal\\docs\\BUILD_AND_FLASH.md","date":1790413182427},{"name":"PHONE_FIRST_ONBOARDING_TEST.md","path":"D:\\BaiduSyncdisk\\工作文件夹\\20 其它\\20 其它\\19 ch584\\03_firmware\\xiaodu_mesh_minimal\\docs\\PHONE_FIRST_ONBOARDING_TEST.md","date":1790389265791},{"name":"BOARD_DIAGNOSTIC.md","path":"D:\\BaiduSyncdisk\\工作文件夹\\20 其它\\20 其它\\19 ch584\\03_firmware\\xiaodu_mesh_minimal\\docs\\BOARD_DIAGNOSTIC.md","date":1790389237113},{"name":"MODULE_STATUS.md","path":"D:\\BaiduSyncdisk\\工作文件夹\\20 其它\\20 其它\\19 ch584\\03_firmware\\xiaodu_mesh_minimal\\docs\\MODULE_STATUS.md","date":1790389228881},{"name":"README.md","path":"D:\\BaiduSyncdisk\\工作文件夹\\20 其它\\20 其它\\19 ch584\\03_firmware\\xiaodu_mesh_minimal\\README.md","date":1790339170349},{"name":"CH584_PB-GATT配网与小度绑定全过程详解.md","path":"D:\\BaiduSyncdisk\\工作文件夹\\20 其它\\20 其它\\19 ch584\\CH584_PB-GATT配网与小度绑定全过程详解.md","date":1789285746250},{"name":"项目纪要.md","path":"D:\\BaiduSyncdisk\\工作文件夹\\20 其它\\20 其它\\16 车床油雾环境下调制激光漫反射断刀检测系统\\项目纪要.md","date":1789022454107},{"name":"跨阻放大器原理.md","path":"D:\\BaiduSyncdisk\\工作文件夹\\20 其它\\20 其它\\16 车床油雾环境下调制激光漫反射断刀检测系统\\跨阻放大器原理.md","date":1789022450939},{"name":"第一版验证平台购买链接.md","path":"D:\\BaiduSyncdisk\\工作文件夹\\20 其它\\20 其它\\16 车床油雾环境下调制激光漫反射断刀检测系统\\第一版验证平台购买链接.md","date":1789022411581},{"name":"程序逻辑控制文档.md","path":"C:\\Users\\Niu\\Desktop\\codex\\tmp\\ver2-synfrehop-worktree\\程序逻辑控制文档.md","date":1788945062390},{"name":"CH584对接小度Bluetooth_Mesh协议与流程汇总.md","path":"D:\\BaiduSyncdisk\\工作文件夹\\20 其它\\20 其它\\19 ch584\\CH584对接小度Bluetooth_Mesh协议与流程汇总.md","date":1788677715999},{"name":"P0_小度接入参数与确认清单.md","path":"D:\\BaiduSyncdisk\\工作文件夹\\20 其它\\20 其它\\19 ch584\\P0_小度接入参数与确认清单.md","date":1788676893705},{"name":"功耗优化.md","path":"C:\\Users\\Niu\\Desktop\\codex\\tmp\\ver2-synfrehop-worktree\\功耗优化.md","date":1788185256785},{"name":"自动分析报告.md","path":"C:\\Users\\Niu\\Desktop\\codex\\tmp\\ver2-synfrehop-worktree\\测试数据\\V311\\分析结果\\自动分析报告.md","date":1787994661189},{"name":"探针触发和释放检测逻辑.md","path":"C:\\Users\\Niu\\Desktop\\codex\\tmp\\ver2-synfrehop-worktree\\探针触发和释放检测逻辑.md","date":1787922807701},{"name":"V3.1.0测试日志分析.md","path":"C:\\Users\\Niu\\Desktop\\codex\\tmp\\ver2-synfrehop-worktree\\测试数据\\V310\\V3.1.0测试日志分析.md","date":1787921728966},{"name":"模式2同步跳频通信协议设计.md","path":"C:\\Users\\Niu\\Desktop\\codex\\tmp\\ver2-synfrehop-worktree\\模式2同步跳频通信协议设计.md","date":1787920173204},{"name":"RX_TX同步跳频与固定延时通信协议设计说明.md","path":"C:\\Users\\Niu\\Desktop\\codex\\tmp\\ver2-synfrehop-worktree\\RX_TX同步跳频与固定延时通信协议设计说明.md","date":1787899251523},{"name":"RX同步跳频实机日志解读_重新编译RX后_2026-08-10.md","path":"C:\\Users\\Niu\\Desktop\\codex\\tmp\\ver2-synfrehop-worktree\\RX同步跳频实机日志解读_重新编译RX后_2026-08-10.md","date":1787899207668},{"name":"日志说明.md","path":"C:\\Users\\Niu\\Desktop\\codex\\tmp\\ver2-synfrehop-worktree\\日志说明.md","date":1787899137966},{"name":"程序修改记录.md","path":"C:\\Users\\Niu\\Desktop\\codex\\tmp\\ver2-synfrehop-worktree\\程序修改记录.md","date":1787899068112},{"name":"V304优化计划.md","path":"C:\\Users\\Niu\\Desktop\\codex\\tmp\\ver2-synfrehop-worktree\\V304优化计划.md","date":1787898693801},{"name":"项目纪要.md","path":"C:\\Users\\Niu\\Desktop\\codex\\tmp\\ver2-synfrehop-worktree\\项目纪要.md","date":1787898618413},{"name":"V3程序修改记录.md","path":"C:\\Users\\Niu\\Desktop\\codex\\tmp\\ver2-synfrehop-worktree\\V3程序修改记录.md","date":1787722098512}],"folders":[{"name":"gd软件","path":"D:\\BaiduSyncdisk\\工作文件夹\\20 其它\\20 其它\\30_UWB\\gd软件","date":"2026-10-22T07:26:28.214Z"},{"name":"codex","path":"C:\\Users\\Niu\\Desktop\\codex","date":"2026-10-13T23:53:12.361Z"},{"name":"19 ch584","path":"D:\\BaiduSyncdisk\\工作文件夹\\20 其它\\20 其它\\19 ch584","date":"2026-09-29T04:44:15.326Z"},{"name":"05_CH58x_USB_BLE_Pen_Bridge","path":"D:\\BaiduSyncdisk\\工作文件夹\\20 其它\\20 其它\\20_CH582\\05_CH58x_USB_BLE_Pen_Bridge","date":"2026-09-29T02:21:47.237Z"},{"name":"docs","path":"D:\\BaiduSyncdisk\\工作文件夹\\20 其它\\20 其它\\19 ch584\\03_firmware\\xiaodu_mesh_minimal\\docs","date":"2026-09-26T01:06:19.448Z"},{"name":"Desktop","path":"C:\\Users\\Niu\\Desktop","date":"2026-09-10T08:42:27.952Z"},{"name":"16 车床油雾环境下调制激光漫反射断刀检测系统","path":"D:\\BaiduSyncdisk\\工作文件夹\\20 其它\\20 其它\\16 车床油雾环境下调制激光漫反射断刀检测系统","date":"2026-09-10T06:40:09.754Z"}]}
+------------------
+[2026/10/24 16:12:33] [Log] [IPC] .invoke("window.updateMenuForIsAlwaysOnTop") args: []
+------------------
+[2026/10/24 16:12:33] [Log] [IPC] .handle("window.updateMenuForIsAlwaysOnTop") result: 
+------------------
+[2026/10/24 16:12:33] [Log] [IPC] .invoke("menu.updateCustomZoom") args: []
+------------------
+[2026/10/24 16:12:33] [Log] [IPC] .handle("menu.updateCustomZoom") result: 
+------------------
+[2026/10/24 16:12:33] [Log] [IPC] .invoke("window.setTitle") args: [null,false]
+------------------
+[2026/10/24 16:12:33] [Log] [IPC] .handle("window.setTitle") result: 
+------------------
+[2026/10/24 16:12:33] [Log] [IPC] .invoke("window.updateMenuForIsAlwaysOnTop") args: []
+------------------
+[2026/10/24 16:12:33] [Log] [IPC] .handle("window.updateMenuForIsAlwaysOnTop") result: 
+------------------
+[2026/10/24 16:12:33] [Log] [IPC] .invoke("menu.updateCustomZoom") args: []
+------------------
+[2026/10/24 16:12:33] [Log] [IPC] .handle("menu.updateCustomZoom") result: 
+------------------
+[2026/10/24 16:12:33] [Log] [IPC] .invoke("window.checkAsFocus") args: []
+------------------
+[2026/10/24 16:12:33] [Log] [IPC] .handle("window.checkAsFocus") result: 
+------------------
+[2026/10/24 16:12:33] [Log] [IPC] .invoke("document.getSnapWithValidation") args: [null]
+------------------
+[2026/10/24 16:12:33] [Log] [IPC] .handle("document.getSnapWithValidation") result: "{\"snap\":null,\"shouldReadFromDisk\":false}"
+------------------
+[2026/10/24 16:12:33] [Log] [IPC] .invoke("window.updateMenuForIsAlwaysOnTop") args: []
+------------------
+[2026/10/24 16:12:33] [Log] [IPC] .handle("window.updateMenuForIsAlwaysOnTop") result: 
+------------------
+[2026/10/24 16:12:33] [Log] [IPC] .invoke("menu.updateCustomZoom") args: []
+------------------
+[2026/10/24 16:12:33] [Log] [IPC] .handle("menu.updateCustomZoom") result: 
+------------------
+[2026/10/24 16:12:33] [Log] [IPC] .invoke("window.checkAsFocus") args: []
+------------------
+[2026/10/24 16:12:33] [Log] [IPC] .handle("window.checkAsFocus") result: 
+------------------
+[2026/10/24 16:12:33] [Log] [IPC] .invoke("document.hasDuplicateName") args: ["程序逻辑设计说明.md"]
+------------------
+[2026/10/24 16:12:33] [Log] [IPC] .handle("document.hasDuplicateName") result: false
+------------------
+[2026/10/24 16:12:33] [Log] [IPC] .invoke("document.setLastSync") args: ["2026-10-24T08:12:33.187Z"]
+------------------
+[2026/10/24 16:12:33] [Log] [IPC] .handle("document.setLastSync") result: 
+------------------
+[2026/10/24 16:12:33] [Log] [IPC] .invoke("window.updateMenuForIsAlwaysOnTop") args: []
+------------------
+[2026/10/24 16:12:33] [Log] [IPC] .handle("window.updateMenuForIsAlwaysOnTop") result: 
+------------------
+[2026/10/24 16:12:33] [Log] [IPC] .invoke("menu.updateCustomZoom") args: []
+------------------
+[2026/10/24 16:12:33] [Log] [IPC] .handle("menu.updateCustomZoom") result: 
+------------------
+[2026/10/24 16:12:33] [Log] [IPC] .invoke("window.setTitle") args: ["程序逻辑设计说明.md - Typora"]
+------------------
+[2026/10/24 16:12:33] [Log] [IPC] .handle("window.setTitle") result: 
+------------------
+[2026/10/24 16:12:33] [Log] [IPC] .invoke("window.setTitle") args: [null,false]
+------------------
+[2026/10/24 16:12:33] [Log] [IPC] .handle("window.setTitle") result: 
+------------------
+[2026/10/24 16:12:33] [Log] [IPC] .invoke("theme.setThemeSource") args: ["system"]
+------------------
+[2026/10/24 16:12:33] [Log] [IPC] .handle("theme.setThemeSource") result: 
+------------------
+[2026/10/24 16:12:33] [Log] [IPC] .invoke("setting.put") args: ["backgroundColor","#F3F2EE"]
+------------------
+[2026/10/24 16:12:33] [Log] [IPC] .handle("setting.put") result: 
+------------------
+[2026/10/24 16:12:33] [Log] [IPC] .invoke("setting.put") args: ["isDarkMode",false]
+------------------
+[2026/10/24 16:12:33] [Log] [IPC] .handle("setting.put") result: 
+------------------
+[2026/10/24 16:12:33] [Log] [IPC] .invoke("window.updateMenuForIsAlwaysOnTop") args: []
+------------------
+[2026/10/24 16:12:33] [Log] [IPC] .handle("window.updateMenuForIsAlwaysOnTop") result: 
+------------------
+[2026/10/24 16:12:33] [Log] [IPC] .invoke("menu.updateCustomZoom") args: []
+------------------
+[2026/10/24 16:12:33] [Log] [IPC] .handle("menu.updateCustomZoom") result: 
+------------------
+[2026/10/24 16:12:33] [Log] [IPC] .invoke("window.checkAsFocus") args: []
+------------------
+[2026/10/24 16:12:33] [Log] [IPC] .handle("window.checkAsFocus") result: 
+------------------
+[2026/10/24 16:12:33] [Log] [IPC] .invoke("setting.getDownloadingDicts") args: []
+------------------
+[2026/10/24 16:12:33] [Log] [IPC] .handle("setting.getDownloadingDicts") result: "[]"
+------------------
+[2026/10/24 16:12:33] [Log] [IPC] .invoke("setting.getUserDictionaryPath") args: []
+------------------
+[2026/10/24 16:12:33] [Log] [IPC] .handle("setting.getUserDictionaryPath") result: "C:\\Users\\Niu\\AppData\\Roaming\\Typora\\typora-dictionaries"
+------------------
+[2026/10/24 16:12:33] [Log] [IPC] .invoke("setting.getUserDict") args: []
+------------------
+[2026/10/24 16:12:33] [Log] [IPC] .handle("setting.getUserDict") result: "{}"
+------------------
+[2026/10/24 16:12:34] [Log] [IPC] .invoke("setting.getKeyBinding") args: []
+------------------
+[2026/10/24 16:12:34] [Log] [IPC] .handle("setting.getKeyBinding") result: {"_useLowerCase":true}
+------------------
+[2026/10/24 16:12:34] [Log] [Response] 200 https://typora.io/releases/windows_64.json
+------------------
+[2026/10/24 16:12:34] [Log] [Response Body]: {
+  "name": "typora",
+  "version": "1.14.10",
+  "releaseNoteLink": "https://typora.io/releases/stable?from-old",
+  "download": "https://downloads.typora.io/windows/typora-update-x64-1.14.10.exe",
+  "downloadCN": "https://downloads.typoraio.cn/windows/typora-update-x64-1.14.10.exe",
+  "alternatives": {
+    "6.1": {
+      "version": "1.5.12",
+      "download": "https://downloads.typora.io/windows/typora-setup-x64-1.5.12.exe",
+      "downloadCN": "https://downloads.typoraio.cn/windows/typora-setup-
+------------------
+[2026/10/24 16:21:21] [Log] -------------------------------------------
+------------------
+[2026/10/24 16:21:21] [Log] crypto.publicDecrypt called
+------------------
+[2026/10/24 16:21:21] [Log] Key: -----BEGIN PUBLIC KEY-----
+MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA7nVoGCHqIMJyqgALEUrc
+5JJhap0+HtJqzPE04pz4y+nrOmY7/12f3HvZyyoRsxKdXTZbO0wEHFIh0cRqsuaJ
+PyaOOPbA0BsalofIAY3mRhQQ3vSf+rn3g+w0S+udWmKV9DnmJlpWqizFajU4T/E4
+5ZgMNcXt3E1ips32rdbTR0Nnen9PVITvrbJ3l6CI2BFBImZQZ2P8N+LsqfJsqyVV
+wDkt3mHAVxV7FZbfYWG+8FDSuKQHaCmvgAtChx9hwl3J6RekkqDVa6GIV13D23LS
+qdk0Jb521wFJi/V6QAK6SLBiby5gYN6zQQ5RQpjXtR53MwzTdiAzGEuKdOtrY2Me
+DwIDAQAB
+-----END PUBLIC KEY-----
+
+
+------------------
+[2026/10/24 16:21:21] [Log] Buffer (Hex): 75736572406578616d706c652e636f6d
+------------------
+[2026/10/24 21:59:59] [Log] BrowserWindow created
+------------------
+[2026/10/24 22:00:01] [Log] [IPC] .invoke("document.loadData") args: []
+------------------
+[2026/10/24 22:00:01] [Log] [IPC] .handle("document.loadData") result: "{\"snap\":null,\"filePath\":\"D:\\\\BaiduSyncdisk\\\\Work_Dir\\\\20_Other\\\\20_Other\\\\30_UWB\\\\交付文档\\\\芯邦科技公司资料整理.md\",\"backups\":null,\"shouldReadFromDisk\":false,\"windowCounts\":1}"
+------------------
+[2026/10/24 22:00:01] [Log] [IPC] .invoke("setting.put") args: ["sidebar_tab","outline"]
+------------------
+[2026/10/24 22:00:01] [Log] [IPC] .handle("setting.put") result: 
+------------------
+[2026/10/24 22:00:01] [Log] [IPC] .invoke("window.updateMenuForIsAlwaysOnTop") args: []
+------------------
+[2026/10/24 22:00:01] [Log] [IPC] .handle("window.updateMenuForIsAlwaysOnTop") result: 
+------------------
+[2026/10/24 22:00:01] [Log] [IPC] .invoke("menu.updateCustomZoom") args: []
+------------------
+[2026/10/24 22:00:01] [Log] [IPC] .handle("menu.updateCustomZoom") result: 
+------------------
+[2026/10/24 22:00:01] [Log] [IPC] .invoke("window.updateMenuForIsAlwaysOnTop") args: []
+------------------
+[2026/10/24 22:00:01] [Log] [IPC] .handle("window.updateMenuForIsAlwaysOnTop") result: 
+------------------
+[2026/10/24 22:00:01] [Log] [IPC] .invoke("menu.updateCustomZoom") args: []
+------------------
+[2026/10/24 22:00:01] [Log] [IPC] .handle("menu.updateCustomZoom") result: 
+------------------
+[2026/10/24 22:00:01] [Log] [IPC] .invoke("setting.getRecentFiles") args: []
+------------------
+[2026/10/24 22:00:01] [Log] [IPC] .handle("setting.getRecentFiles") result: {"files":[{"name":"芯邦科技公司资料整理.md","path":"D:\\BaiduSyncdisk\\Work_Dir\\20_Other\\20_Other\\30_UWB\\交付文档\\芯邦科技公司资料整理.md","date":1792850399458},{"name":"程序逻辑设计说明.md","path":"D:\\BaiduSyncdisk\\Work_Dir\\20_Other\\20_Other\\30_UWB\\GD_Project\\程序逻辑设计说明.md","date":1792829551161},{"name":"中国市售协作机械臂全景调研报.md","path":"C:\\Users\\Niu\\Desktop\\中国市售协作机械臂全景调研报.md","date":1792718973463},{"name":"README.md","path":"D:\\BaiduSyncdisk\\Work_Dir\\21_AI_Work_Space\\01_Redash\\dishwasher-redash-readonly\\README.md","date":1792664223108},{"name":"SKILL.md","path":"D:\\BaiduSyncdisk\\Work_Dir\\21_AI_Work_Space\\01_Redash\\dishwasher-redash-readonly\\SKILL.md","date":1792664108809},{"name":"程序逻辑设计说明.md","path":"D:\\BaiduSyncdisk\\工作文件夹\\20 其它\\20 其它\\30_UWB\\gd软件\\程序逻辑设计说明.md","date":1792653989778},{"name":"程序逻辑控制文档.md","path":"C:\\Users\\Niu\\Desktop\\codex\\程序逻辑控制文档.md","date":1791935594577},{"name":"RX_V5.0.0三路输出IO与LED程序修改清单.md","path":"C:\\Users\\Niu\\Desktop\\codex\\RX_V5.0.0三路输出IO与LED程序修改清单.md","date":1791643234872},{"name":"RX输出IO与LED状态现状及待确认修改方案.md","path":"C:\\Users\\Niu\\Desktop\\codex\\RX输出IO与LED状态现状及待确认修改方案.md","date":1791642868228},{"name":"07_第一阶段模拟数据与第二阶段真实模块接入指南.md","path":"D:\\BaiduSyncdisk\\工作文件夹\\20 其它\\20 其它\\19 ch584\\09_开发文档\\07_第一阶段模拟数据与第二阶段真实模块接入指南.md","date":1790826098035},{"name":"FIRST_STAGE_RETEST_GUIDE_20260926.md","path":"D:\\BaiduSyncdisk\\工作文件夹\\20 其它\\20 其它\\19 ch584\\03_firmware\\xiaodu_mesh_minimal\\docs\\FIRST_STAGE_RETEST_GUIDE_20260926.md","date":1790657075497},{"name":"程序逻辑设计.md","path":"D:\\BaiduSyncdisk\\工作文件夹\\20 其它\\20 其它\\20_CH582\\05_CH58x_USB_BLE_Pen_Bridge\\程序逻辑设计.md","date":1790648515428},{"name":"README.md","path":"D:\\BaiduSyncdisk\\工作文件夹\\20 其它\\20 其它\\20_CH582\\05_CH58x_USB_BLE_Pen_Bridge\\README.md","date":1790582471624},{"name":"手写板USB转BLE项目汇总.md","path":"D:\\BaiduSyncdisk\\工作文件夹\\20 其它\\20 其它\\20_CH582\\手写板USB转BLE项目汇总.md","date":1790581204691},{"name":"SIMULATED_DATA_AND_REAL_BACKEND_GUIDE.md","path":"D:\\BaiduSyncdisk\\工作文件夹\\20 其它\\20 其它\\19 ch584\\03_firmware\\xiaodu_mesh_minimal\\docs\\SIMULATED_DATA_AND_REAL_BACKEND_GUIDE.md","date":1790413297851},{"name":"XIAODU_PROTOCOL_CONFIRMED_20260924.md","path":"D:\\BaiduSyncdisk\\工作文件夹\\20 其它\\20 其它\\19 ch584\\03_firmware\\xiaodu_mesh_minimal\\docs\\XIAODU_PROTOCOL_CONFIRMED_20260924.md","date":1790413270226},{"name":"BOARD_KEYS_AND_IO.md","path":"D:\\BaiduSyncdisk\\工作文件夹\\20 其它\\20 其它\\19 ch584\\03_firmware\\xiaodu_mesh_minimal\\docs\\BOARD_KEYS_AND_IO.md","date":1790413232864},{"name":"BUILD_AND_FLASH.md","path":"D:\\BaiduSyncdisk\\工作文件夹\\20 其它\\20 其它\\19 ch584\\03_firmware\\xiaodu_mesh_minimal\\docs\\BUILD_AND_FLASH.md","date":1790413182427},{"name":"PHONE_FIRST_ONBOARDING_TEST.md","path":"D:\\BaiduSyncdisk\\工作文件夹\\20 其它\\20 其它\\19 ch584\\03_firmware\\xiaodu_mesh_minimal\\docs\\PHONE_FIRST_ONBOARDING_TEST.md","date":1790389265791},{"name":"BOARD_DIAGNOSTIC.md","path":"D:\\BaiduSyncdisk\\工作文件夹\\20 其它\\20 其它\\19 ch584\\03_firmware\\xiaodu_mesh_minimal\\docs\\BOARD_DIAGNOSTIC.md","date":1790389237113},{"name":"MODULE_STATUS.md","path":"D:\\BaiduSyncdisk\\工作文件夹\\20 其它\\20 其它\\19 ch584\\03_firmware\\xiaodu_mesh_minimal\\docs\\MODULE_STATUS.md","date":1790389228881},{"name":"README.md","path":"D:\\BaiduSyncdisk\\工作文件夹\\20 其它\\20 其它\\19 ch584\\03_firmware\\xiaodu_mesh_minimal\\README.md","date":1790339170349},{"name":"CH584_PB-GATT配网与小度绑定全过程详解.md","path":"D:\\BaiduSyncdisk\\工作文件夹\\20 其它\\20 其它\\19 ch584\\CH584_PB-GATT配网与小度绑定全过程详解.md","date":1789285746250},{"name":"项目纪要.md","path":"D:\\BaiduSyncdisk\\工作文件夹\\20 其它\\20 其它\\16 车床油雾环境下调制激光漫反射断刀检测系统\\项目纪要.md","date":1789022454107},{"name":"跨阻放大器原理.md","path":"D:\\BaiduSyncdisk\\工作文件夹\\20 其它\\20 其它\\16 车床油雾环境下调制激光漫反射断刀检测系统\\跨阻放大器原理.md","date":1789022450939},{"name":"第一版验证平台购买链接.md","path":"D:\\BaiduSyncdisk\\工作文件夹\\20 其它\\20 其它\\16 车床油雾环境下调制激光漫反射断刀检测系统\\第一版验证平台购买链接.md","date":1789022411581},{"name":"程序逻辑控制文档.md","path":"C:\\Users\\Niu\\Desktop\\codex\\tmp\\ver2-synfrehop-worktree\\程序逻辑控制文档.md","date":1788945062390},{"name":"CH584对接小度Bluetooth_Mesh协议与流程汇总.md","path":"D:\\BaiduSyncdisk\\工作文件夹\\20 其它\\20 其它\\19 ch584\\CH584对接小度Bluetooth_Mesh协议与流程汇总.md","date":1788677715999},{"name":"P0_小度接入参数与确认清单.md","path":"D:\\BaiduSyncdisk\\工作文件夹\\20 其它\\20 其它\\19 ch584\\P0_小度接入参数与确认清单.md","date":1788676893705},{"name":"功耗优化.md","path":"C:\\Users\\Niu\\Desktop\\codex\\tmp\\ver2-synfrehop-worktree\\功耗优化.md","date":1788185256785},{"name":"自动分析报告.md","path":"C:\\Users\\Niu\\Desktop\\codex\\tmp\\ver2-synfrehop-worktree\\测试数据\\V311\\分析结果\\自动分析报告.md","date":1787994661189},{"name":"探针触发和释放检测逻辑.md","path":"C:\\Users\\Niu\\Desktop\\codex\\tmp\\ver2-synfrehop-worktree\\探针触发和释放检测逻辑.md","date":1787922807701},{"name":"V3.1.0测试日志分析.md","path":"C:\\Users\\Niu\\Desktop\\codex\\tmp\\ver2-synfrehop-worktree\\测试数据\\V310\\V3.1.0测试日志分析.md","date":1787921728966},{"name":"模式2同步跳频通信协议设计.md","path":"C:\\Users\\Niu\\Desktop\\codex\\tmp\\ver2-synfrehop-worktree\\模式2同步跳频通信协议设计.md","date":1787920173204},{"name":"RX_TX同步跳频与固定延时通信协议设计说明.md","path":"C:\\Users\\Niu\\Desktop\\codex\\tmp\\ver2-synfrehop-worktree\\RX_TX同步跳频与固定延时通信协议设计说明.md","date":1787899251523},{"name":"RX同步跳频实机日志解读_重新编译RX后_2026-08-10.md","path":"C:\\Users\\Niu\\Desktop\\codex\\tmp\\ver2-synfrehop-worktree\\RX同步跳频实机日志解读_重新编译RX后_2026-08-10.md","date":1787899207668},{"name":"日志说明.md","path":"C:\\Users\\Niu\\Desktop\\codex\\tmp\\ver2-synfrehop-worktree\\日志说明.md","date":1787899137966},{"name":"程序修改记录.md","path":"C:\\Users\\Niu\\Desktop\\codex\\tmp\\ver2-synfrehop-worktree\\程序修改记录.md","date":1787899068112},{"name":"V304优化计划.md","path":"C:\\Users\\Niu\\Desktop\\codex\\tmp\\ver2-synfrehop-worktree\\V304优化计划.md","date":1787898693801},{"name":"项目纪要.md","path":"C:\\Users\\Niu\\Desktop\\codex\\tmp\\ver2-synfrehop-worktree\\项目纪要.md","date":1787898618413}],"folders":[{"name":"gd软件","path":"D:\\BaiduSyncdisk\\工作文件夹\\20 其它\\20 其它\\30_UWB\\gd软件","date":"2026-10-22T07:26:28.214Z"},{"name":"codex","path":"C:\\Users\\Niu\\Desktop\\codex","date":"2026-10-13T23:53:12.361Z"},{"name":"19 ch584","path":"D:\\BaiduSyncdisk\\工作文件夹\\20 其它\\20 其它\\19 ch584","date":"2026-09-29T04:44:15.326Z"},{"name":"05_CH58x_USB_BLE_Pen_Bridge","path":"D:\\BaiduSyncdisk\\工作文件夹\\20 其它\\20 其它\\20_CH582\\05_CH58x_USB_BLE_Pen_Bridge","date":"2026-09-29T02:21:47.237Z"},{"name":"docs","path":"D:\\BaiduSyncdisk\\工作文件夹\\20 其它\\20 其它\\19 ch584\\03_firmware\\xiaodu_mesh_minimal\\docs","date":"2026-09-26T01:06:19.448Z"},{"name":"Desktop","path":"C:\\Users\\Niu\\Desktop","date":"2026-09-10T08:42:27.952Z"},{"name":"16 车床油雾环境下调制激光漫反射断刀检测系统","path":"D:\\BaiduSyncdisk\\工作文件夹\\20 其它\\20 其它\\16 车床油雾环境下调制激光漫反射断刀检测系统","date":"2026-09-10T06:40:09.754Z"}]}
+------------------
+[2026/10/24 22:00:01] [Log] [IPC] .invoke("window.updateMenuForIsAlwaysOnTop") args: []
+------------------
+[2026/10/24 22:00:01] [Log] [IPC] .handle("window.updateMenuForIsAlwaysOnTop") result: 
+------------------
+[2026/10/24 22:00:01] [Log] [IPC] .invoke("menu.updateCustomZoom") args: []
+------------------
+[2026/10/24 22:00:01] [Log] [IPC] .handle("menu.updateCustomZoom") result: 
+------------------
+[2026/10/24 22:00:01] [Log] [IPC] .invoke("window.setTitle") args: [null,false]
+------------------
+[2026/10/24 22:00:01] [Log] [IPC] .handle("window.setTitle") result: 
+------------------
+[2026/10/24 22:00:01] [Log] [IPC] .invoke("window.updateMenuForIsAlwaysOnTop") args: []
+------------------
+[2026/10/24 22:00:01] [Log] [IPC] .handle("window.updateMenuForIsAlwaysOnTop") result: 
+------------------
+[2026/10/24 22:00:01] [Log] [IPC] .invoke("menu.updateCustomZoom") args: []
+------------------
+[2026/10/24 22:00:01] [Log] [IPC] .handle("menu.updateCustomZoom") result: 
+------------------
+[2026/10/24 22:00:01] [Log] [IPC] .invoke("window.checkAsFocus") args: []
+------------------
+[2026/10/24 22:00:01] [Log] [IPC] .handle("window.checkAsFocus") result: 
+------------------
+[2026/10/24 22:00:01] [Log] [IPC] .invoke("document.getSnapWithValidation") args: [null]
+------------------
+[2026/10/24 22:00:01] [Log] [IPC] .handle("document.getSnapWithValidation") result: "{\"snap\":null,\"shouldReadFromDisk\":false}"
+------------------
+[2026/10/24 22:00:01] [Log] [IPC] .invoke("window.updateMenuForIsAlwaysOnTop") args: []
+------------------
+[2026/10/24 22:00:01] [Log] [IPC] .handle("window.updateMenuForIsAlwaysOnTop") result: 
+------------------
+[2026/10/24 22:00:01] [Log] [IPC] .invoke("menu.updateCustomZoom") args: []
+------------------
+[2026/10/24 22:00:01] [Log] [IPC] .handle("menu.updateCustomZoom") result: 
+------------------
+[2026/10/24 22:00:01] [Log] [IPC] .invoke("window.checkAsFocus") args: []
+------------------
+[2026/10/24 22:00:01] [Log] [IPC] .handle("window.checkAsFocus") result: 
+------------------
+[2026/10/24 22:00:01] [Log] [IPC] .invoke("window.updateMenuForIsAlwaysOnTop") args: []
+------------------
+[2026/10/24 22:00:01] [Log] [IPC] .handle("window.updateMenuForIsAlwaysOnTop") result: 
+------------------
+[2026/10/24 22:00:01] [Log] [IPC] .invoke("menu.updateCustomZoom") args: []
+------------------
+[2026/10/24 22:00:01] [Log] [IPC] .handle("menu.updateCustomZoom") result: 
+------------------
+[2026/10/24 22:00:01] [Log] [IPC] .invoke("window.checkAsFocus") args: []
+------------------
+[2026/10/24 22:00:01] [Log] [IPC] .handle("window.checkAsFocus") result: 
+------------------
+[2026/10/24 22:00:01] [Log] [IPC] .invoke("theme.setThemeSource") args: ["system"]
+------------------
+[2026/10/24 22:00:01] [Log] [IPC] .handle("theme.setThemeSource") result: 
+------------------
+[2026/10/24 22:00:01] [Log] [IPC] .invoke("setting.put") args: ["backgroundColor","#F3F2EE"]
+------------------
+[2026/10/24 22:00:01] [Log] [IPC] .handle("setting.put") result: 
+------------------
+[2026/10/24 22:00:01] [Log] [IPC] .invoke("setting.put") args: ["isDarkMode",false]
+------------------
+[2026/10/24 22:00:01] [Log] [IPC] .handle("setting.put") result: 
+------------------
+[2026/10/24 22:00:01] [Log] [IPC] .invoke("setting.getDownloadingDicts") args: []
+------------------
+[2026/10/24 22:00:01] [Log] [IPC] .handle("setting.getDownloadingDicts") result: "[]"
+------------------
+[2026/10/24 22:00:01] [Log] [IPC] .invoke("setting.getUserDictionaryPath") args: []
+------------------
+[2026/10/24 22:00:01] [Log] [IPC] .handle("setting.getUserDictionaryPath") result: "C:\\Users\\Niu\\AppData\\Roaming\\Typora\\typora-dictionaries"
+------------------
+[2026/10/24 22:00:01] [Log] [IPC] .invoke("setting.getUserDict") args: []
+------------------
+[2026/10/24 22:00:01] [Log] [IPC] .handle("setting.getUserDict") result: "{}"
+------------------
+[2026/10/24 22:00:01] [Log] [IPC] .invoke("document.hasDuplicateName") args: ["芯邦科技公司资料整理.md"]
+------------------
+[2026/10/24 22:00:01] [Log] [IPC] .handle("document.hasDuplicateName") result: false
+------------------
+[2026/10/24 22:00:02] [Log] [IPC] .invoke("document.setLastSync") args: ["2026-10-24T14:00:01.919Z"]
+------------------
+[2026/10/24 22:00:02] [Log] [IPC] .handle("document.setLastSync") result: 
+------------------
+[2026/10/24 22:00:02] [Log] [IPC] .invoke("window.updateMenuForIsAlwaysOnTop") args: []
+------------------
+[2026/10/24 22:00:02] [Log] [IPC] .handle("window.updateMenuForIsAlwaysOnTop") result: 
+------------------
+[2026/10/24 22:00:02] [Log] [IPC] .invoke("menu.updateCustomZoom") args: []
+------------------
+[2026/10/24 22:00:02] [Log] [IPC] .handle("menu.updateCustomZoom") result: 
+------------------
+[2026/10/24 22:00:02] [Log] [IPC] .invoke("window.setTitle") args: ["芯邦科技公司资料整理.md - Typora"]
+------------------
+[2026/10/24 22:00:02] [Log] [IPC] .handle("window.setTitle") result: 
+------------------
+[2026/10/24 22:00:02] [Log] [IPC] .invoke("window.setTitle") args: [null,false]
+------------------
+[2026/10/24 22:00:02] [Log] [IPC] .handle("window.setTitle") result: 
+------------------
+[2026/10/24 22:00:02] [Log] [IPC] .invoke("setting.getKeyBinding") args: []
+------------------
+[2026/10/24 22:00:02] [Log] [IPC] .handle("setting.getKeyBinding") result: {"_useLowerCase":true}
+------------------
+[2026/10/24 22:02:27] [Log] [IPC] .invoke("app.onCloseWin") args: [null]
+------------------
+[2026/10/24 22:02:27] [Log] [IPC] .handle("app.onCloseWin") result: 
+------------------
+[2026/10/24 22:02:31] [Log] [IPC] .invoke("app.onCloseWin") args: [null]
+------------------
+[2026/10/24 22:02:31] [Log] [IPC] .handle("app.onCloseWin") result: 
+------------------
+[2026/10/24 22:02:31] [Log] [IPC] .invoke("window.updateMenuForIsAlwaysOnTop") args: []
+------------------
+[2026/10/24 22:02:31] [Log] [IPC] .handle("window.updateMenuForIsAlwaysOnTop") result: 
+------------------
+[2026/10/24 22:02:31] [Log] [IPC] .invoke("menu.updateCustomZoom") args: []
+------------------
+[2026/10/24 22:02:31] [Log] [IPC] .handle("menu.updateCustomZoom") result: 
+------------------
+[2026/10/24 22:02:31] [Log] [IPC] .invoke("window.checkAsFocus") args: []
+------------------
+[2026/10/24 22:02:31] [Log] [IPC] .handle("window.checkAsFocus") result: 
+------------------

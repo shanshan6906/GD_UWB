@@ -134,7 +134,7 @@
             <RunIndependent>0</RunIndependent>
             <UpdateFlashBeforeDebugging>1</UpdateFlashBeforeDebugging>
             <Capability>1</Capability>
-            <DriverSelection>4096</DriverSelection>
+            <DriverSelection>4102</DriverSelection>
           </Flash1>
           <bUseTDR>1</bUseTDR>
           <Flash2>BIN\UL2V8M.DLL</Flash2>
@@ -336,7 +336,7 @@
             <v6WtE>0</v6WtE>
             <v6Rtti>0</v6Rtti>
             <VariousControls>
-              <MiscControls>-Wno-c99-extensions -Wno-covered-switch-default -Wno-missing-noreturn -Wno-comment</MiscControls>
+              <MiscControls>-Wno-c99-extensions -Wno-covered-switch-default -Wno-missing-noreturn -Wno-comment -Wno-padded</MiscControls>
               <Define>GD32E23x,GD32E230</Define>
               <Undefine></Undefine>
               <IncludePath>..\..\Application\Inc;..\..\BSP\Inc;..\..\Drivers\UWB\Inc;..\..\Drivers\Log\Inc;..\..\Firmware\CMSIS\Core\Include;..\..\Firmware\CMSIS\GD32E23x\Include;..\..\Firmware\GD32E23x_standard_peripheral\Include</IncludePath>

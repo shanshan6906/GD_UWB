@@ -1,0 +1,11 @@
+*** Using Compiler 'V6.16', folder: 'C:\Keil_v5\ARM\ARMCLANG\Bin'
+Build target 'Target 1'
+warning: unknown warning option '-Wno-unused-but-set-parameter'; did you mean '-Wno-unused-parameter'? [-Wunknown-warning-option]
+warning: unknown warning option '-Wno-unused-but-set-variable'; did you mean '-Wno-unused-const-variable'? [-Wunknown-warning-option]
+2 warnings generated.
+compiling app_uart.c...
+linking...
+Program Size: Code=52104 RO-data=6112 RW-data=9036 ZI-data=79248  
+FromELF: creating hex file...
+".\Objects\CBU5000V210.axf" - 0 Error(s), 2 Warning(s).
+Build Time Elapsed:  00:00:04

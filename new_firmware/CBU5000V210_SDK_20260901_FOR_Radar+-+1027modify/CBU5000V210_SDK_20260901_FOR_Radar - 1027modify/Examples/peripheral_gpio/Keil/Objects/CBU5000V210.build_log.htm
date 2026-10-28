@@ -1,0 +1,138 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¶ÃVision V5.39.0.0
+Copyright (C) 2023 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: 123 liuxm, 123, LIC=TIVNB-2I61U-CXKU6-DKRS4-NQ06B-J00EL
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.39.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCLANG\Bin
+C Compiler:      ArmClang.exe V6.21
+Assembler:       Armasm.exe V6.21
+Linker/Locator:  ArmLink.exe V6.21
+Library Manager: ArmAr.exe V6.21
+Hex Converter:   FromElf.exe V6.21
+CPU DLL:         
+Dialog DLL:      
+Target DLL:      CMSIS_AGDI_V8M.DLL V1.8.1.0
+Dialog DLL:      TCM.DLL V1.56.4.0
+ 
+<h2>Project:</h2>
+D:\uwb_dev\User_project\radar\√Ù–æŒ¢\CBU5000V210_SDK_20260901_FOR_Radar\Examples\peripheral_gpio\Keil\peripheral_gpio.uvprojx
+Project File Date:  10/26/2026
+
+<h2>Output:</h2>
+*** Using Compiler 'V6.21', folder: 'C:\Keil_v5\ARM\ARMCLANG\Bin'
+Rebuild target 'Target 1'
+../App/app_gpio.c(224): warning: no newline at end of file [-Wnewline-eof]
+  224 | }
+      |  ^
+1 warning generated.
+compiling app_gpio.c...
+../../../Components/DriverCpu/Src/CB_gpio.c(96): warning: unsafe buffer access [-Wunsafe-buffer-usage]
+   96 |         pIOMuxGPIO[position]=IOMUX_GPIOMODE;
+      |         ^~~~~~~~~~
+../../../Components/DriverCpu/Src/CB_gpio.c(98): warning: unsafe buffer access [-Wunsafe-buffer-usage]
+   98 |         pGPIOPinCfg[position]=PullConfig; /*Configure Pull Up/Down Enable and Select*/
+      |         ^~~~~~~~~~~
+2 warnings generated.
+compiling CB_gpio.c...
+compiling CB_SleepDeepSleep.c...
+compiling main.c...
+compiling CB_uwb.c...
+compiling CB_wdt.c...
+compiling CB_iomux.c...
+../../../Components/DriverCpu/Src/CB_crc.c(215): warning: unsafe buffer access [-Wunsafe-buffer-usage]
+  215 |           tempbuf |= (uint32_t) (Data[cnt]<<(i*BYTE_SIZE));
+      |                                  ^~~~
+../../../Components/DriverCpu/Src/CB_crc.c(225): warning: unsafe buffer access [-Wunsafe-buffer-usage]
+  225 |           tempbuf |= (uint32_t) (Data[cnt]<<(i*BYTE_SIZE));
+      |                                  ^~~~
+2 warnings generated.
+compiling CB_crc.c...
+compiling CB_scr.c...
+../../../Components/Midlayer/System/CB_system.c(146): warning: unsafe buffer access [-Wunsafe-buffer-usage]
+  146 |     args[1] = (uint32_t)pRxRamAddr;
+      |     ^~~~
+../../../Components/Midlayer/System/CB_system.c(147): warning: unsafe buffer access [-Wunsafe-buffer-usage]
+  147 |     args[2] = TxRamSize;
+      |     ^~~~
+../../../Components/Midlayer/System/CB_system.c(148): warning: unsafe buffer access [-Wunsafe-buffer-usage]
+  148 |     args[3] = RxRamSize;
+      |     ^~~~
+3 warnings generated.
+compiling CB_system.c...
+../../../Components/Application/app_uart.c(254): warning: unsafe buffer access [-Wunsafe-buffer-usage]
+  254 |   bytes[1] = (value >> 16) & 0xFF;
+      |   ^~~~~
+../../../Components/Application/app_uart.c(255): warning: unsafe buffer access [-Wunsafe-buffer-usage]
+  255 |   bytes[2] = (value >> 8) & 0xFF;
+      |   ^~~~~
+../../../Components/Application/app_uart.c(256): warning: unsafe buffer access [-Wunsafe-buffer-usage]
+  256 |   bytes[3] = value & 0xFF;          // LSB
+      |   ^~~~~
+3 warnings generated.
+compiling app_uart.c...
+../../../Components/Application/AppSysIrqCallback.c(89): warning: unsafe buffer access [-Wunsafe-buffer-usage]
+   89 |   callback_node_t* current = callback_lists[entryNumber].head;
+      |                              ^~~~~~~~~~~~~~
+../../../Components/Application/AppSysIrqCallback.c(112): warning: unsafe buffer access [-Wunsafe-buffer-usage]
+  112 |   if (callback_lists[entryNumber].head == NULL) 
+      |       ^~~~~~~~~~~~~~
+../../../Components/Application/AppSysIrqCallback.c(115): warning: unsafe buffer access [-Wunsafe-buffer-usage]
+  115 |     callback_lists[entryNumber].head = new_node;
+      |     ^~~~~~~~~~~~~~
+../../../Components/Application/AppSysIrqCallback.c(120): warning: unsafe buffer access [-Wunsafe-buffer-usage]
+  120 |     new_node->next = callback_lists[entryNumber].head;
+      |                      ^~~~~~~~~~~~~~
+../../../Components/Application/AppSysIrqCallback.c(121): warning: unsafe buffer access [-Wunsafe-buffer-usage]
+  121 |     callback_lists[entryNumber].head = new_node;
+      |     ^~~~~~~~~~~~~~
+../../../Components/Application/AppSysIrqCallback.c(140): warning: unsafe buffer access [-Wunsafe-buffer-usage]
+  140 |   callback_node_t* current = callback_lists[entryNumber].head;
+      |                              ^~~~~~~~~~~~~~
+../../../Components/Application/AppSysIrqCallback.c(152): warning: unsafe buffer access [-Wunsafe-buffer-usage]
+  152 |         callback_lists[entryNumber].head = current->next;
+      |         ^~~~~~~~~~~~~~
+../../../Components/Application/AppSysIrqCallback.c(184): warning: unsafe buffer access [-Wunsafe-buffer-usage]
+  184 |   callback_node_t* current = callback_lists[entryNumber].head;
+      |                              ^~~~~~~~~~~~~~
+8 warnings generated.
+compiling AppSysIrqCallback.c...
+../../../Components/DriverCpu/Src/CB_Uart.c(319): warning: unsafe pointer arithmetic [-Wunsafe-buffer-usage]
+  319 |             UART->TXD = *(data++);
+      |                           ^~~~
+../../../Components/DriverCpu/Src/CB_Uart.c(426): warning: unsafe buffer access [-Wunsafe-buffer-usage]
+  426 |         dest[i] = rxBuffer[i];
+      |         ^~~~
+../../../Components/DriverCpu/Src/CB_Uart.c(426): warning: unsafe buffer access [-Wunsafe-buffer-usage]
+  426 |         dest[i] = rxBuffer[i];
+      |                   ^~~~~~~~
+3 warnings generated.
+compiling CB_Uart.c...
+compiling NonLIB_sharedUtils.c...
+compiling system_ARMCM33.c...
+compiling startup_ARMCM33.c...
+linking...
+Program Size: Code=11772 RO-data=2680 RW-data=524 ZI-data=8448  
+FromELF: creating hex file...
+".\Objects\CBU5000V210.axf" - 0 Error(s), 22 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: Keil
+                https://chipsbank.com/Keil.CBU5000V210_DFP.1.0.0.pack
+                Keil::CBU5000V210_DFP@1.0.0
+                CBU5000V210 Series Device Support, Drivers
+
+<h2>Collection of Component include folders:</h2>
+  C:/Users/xinming.liu/AppData/Local/Arm/Packs/Chipsbank/CBU5000V210_DFP/1.0.0/Device/ARM/ARMCM33/Include
+
+<h2>Collection of Component Files used:</h2>
+Build Time Elapsed:  00:00:02
+</pre>
+</body>
+</html>

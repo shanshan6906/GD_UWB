@@ -1,0 +1,27 @@
+./objects/port.o: \
+  ..\..\..\External\FreeRTOS\Source\portable\GCC\ARM_CM33_NTZ\non_secure\port.c \
+  ..\..\..\Components\Configuration\APP_CompileOption.h \
+  ..\..\..\Components\Configuration\APP_common.h \
+  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdint.h \
+  ..\..\..\Components\ArmCore\ARMCM33_DSP_FP.h \
+  ..\..\..\Components\ArmCore\CMSIS_6.2.0\Core\Include\core_cm33.h \
+  ..\..\..\Components\ArmCore\CMSIS_6.2.0\Core\Include\cmsis_version.h \
+  ..\..\..\Components\ArmCore\CMSIS_6.2.0\Core\Include\cmsis_compiler.h \
+  ..\..\..\Components\ArmCore\CMSIS_6.2.0\Core\Include\cmsis_armclang.h \
+  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\arm_acle.h \
+  ..\..\..\Components\ArmCore\CMSIS_6.2.0\Core\Include\.\m-profile\cmsis_armclang_m.h \
+  ..\..\..\Components\ArmCore\CMSIS_6.2.0\Core\Include\m-profile\armv8m_mpu.h \
+  C:\Keil_v5\ARM\PACK\Keil\CBU5000V210_DFP\1.0.0\Device\ARM\ARMCM33\Include\system_ARMCM33.h \
+  ..\..\..\External\FreeRTOS\Source\include\FreeRTOS.h \
+  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stddef.h \
+  ..\..\..\External\FreeRTOS\Source\include\FreeRTOSConfig.h \
+  ..\..\..\External\FreeRTOS\Source\include\projdefs.h \
+  ..\..\..\External\FreeRTOS\Source\include\portable.h \
+  ..\..\..\External\FreeRTOS\Source\include\deprecated_definitions.h \
+  ..\..\..\External\FreeRTOS\Source\portable\GCC\ARM_CM33_NTZ\non_secure\portmacro.h \
+  ..\..\..\External\FreeRTOS\Source\portable\GCC\ARM_CM33_NTZ\non_secure\portmacrocommon.h \
+  ..\..\..\External\FreeRTOS\Source\include\mpu_wrappers.h \
+  ..\..\..\External\FreeRTOS\Source\include\task.h \
+  ..\..\..\External\FreeRTOS\Source\include\list.h \
+  ..\..\..\External\FreeRTOS\Source\include\mpu_wrappers.h \
+  ..\..\..\External\FreeRTOS\Source\portable\GCC\ARM_CM33_NTZ\non_secure\portasm.h

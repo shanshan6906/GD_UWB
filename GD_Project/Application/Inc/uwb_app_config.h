@@ -43,7 +43,7 @@
  */
 #define UWB_FRAME_ROW_INTERVAL_MS                 10U
 #define UWB_FRAME_INTERVAL_MS                     100U
-#define UWB_FRAME_CIR_COUNT                       32U
+#define UWB_FRAME_CIR_COUNT                       1U
 #define UWB_FRAME_DEEP_SLEEP_ENABLE               0U
 
 #if ((UWB_SENSING_MODE_SELECT != UWB_SENSING_MODE_CONTINUOUS) && \
